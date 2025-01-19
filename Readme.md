@@ -1,0 +1,1 @@
+Esse projeto foi desenvolvido por um dois desenvolvedores novatos na área, esse foi o resultado de cooperção de Pedro Bitelli e Gabril Alves.
