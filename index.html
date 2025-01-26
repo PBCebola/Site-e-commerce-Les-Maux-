@@ -1,53 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commmerce</title>
-    <link rel="stylesheet" href="style.css">
-
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-commerce</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="mainjs.js"></script>
+        
+        
 </head>
 <body>
         
     <div class="fundo">
-
+            
         <div class="azul ">
         </div>
-
-      
+              
         <div class="branco "> 
         </div>
-
+            
         <div class="vermelho ">
         </div>
-   
+            
+        <button onclick="mostrar_painel_login()">
+            <p> Acessar Roupas </p>
+        </button>
+
         <img src="assets/Designeers__1_-removebg-preview.png" alt="">
+            
+    </div>    
 
-    </div>
-
-    <a href="">
-    
-    <div id="sugestao">
-       
-
-    </div >
-        <button onclick="">
-        <p> Acessar roupas </p>
-    </button>
-    </a>
-
-<!-- 
-    <form id="painel" class="painel_login">
-        <input type="text" name="menu_login" id="sugestao" placeholder="Digite seu Nome"><br>
-        <input type="text" name="menu_login" id="sugestao" placeholder="Digite sua Senha"><br>
-        <button type="submit" class="botao_enviar">Enviar</button>
-        
-        <a href="">
-        <p>Esqueçeu a Senha?</p>
-        </a>
-    </form>
--->
-
+            <form id="painel_login" class="painel_login">
+                <label>Insire seu nome</label>
+                    <input type="text" name="menu_login" id="sugestao" placeholder="Digite seu Nome">
+                <label>Insire uma senha</label>
+                    <input type="text" name="menu_login" id="sugestao" placeholder="Digite sua Senha">
+               
+                <button type="button" class="botao_enviar">Enviar</button>
+                    <p>Esqueçeu a Senha?</p>
+                    
+                    
+            </form>
+                
 </body>
 </html>
