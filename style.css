@@ -6,7 +6,7 @@
     font-family: "kanit", sans-serif;
 }
 
-
+/*Fundo do site -Pedro Bitelli*/
 .fundo{
     display: flex;
     
@@ -38,6 +38,23 @@
  
 }
 
+
+.fundo img{
+
+    overflow: visible;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*Fim do fundo do site */
+
+/*Nav Bar -Gabriel Alvez*/
 .nav-bar {
 
     background-color: black;
@@ -60,22 +77,23 @@
     max-width: 40px;
 }
 
-img{
-
-    overflow: visible;
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+.nav-list {
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 3.5px 10px rgb(0, 0, 0);
+    list-style-type: none;
 }
-/*Fim do fundo do site*/
 
-/*Botão acessar o página inicial*/
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+/*Botão acessar o página inicial -Pedro Bitelli*/
 button{
 
     position: absolute;
@@ -101,7 +119,10 @@ button:hover{
 
 /*Fim do botão inicial*/
 
-/*Painel de login*/
+
+
+
+/*Painel de login -Pedro Bitelli*/
  
 .painel_login{
 
@@ -169,22 +190,6 @@ input:hover{
     color: black;
     border: #000000 2px solid;
     
-}
-
-.painel_login p{
-
-    color: #ffffff;
-    font-weight: bold;
-    cursor: pointer;
-    text-align:center;
-    
-
-}
-
-.painel_login p:hover{
-
-    color: #b8b8b8;
-
 }
 /* Fim do painel de login*/
 
